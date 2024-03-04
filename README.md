@@ -1,11 +1,7 @@
-# HANSA LIBROS
-
+# 📖 HANSA LIBROS
 Este proyecto esta desarrollado con Laravel y funciona como backend de una aplicacion web desarrollada con React
 
-
-
-
-## Instrucciones principales
+## 💡 Instrucciones principales
 
 Antes que nada usar algun sevidor local para usar el proyecto despues de haberlo clonado
 
@@ -14,7 +10,7 @@ Antes que nada usar algun sevidor local para usar el proyecto despues de haberlo
 - Instalar composer
 
 
-## Configuracion del proyecto
+## ⚙️ Configuracion del proyecto
 
 Algunas comandos utilizados son:
 
@@ -29,7 +25,7 @@ Ahora crear una base de datos con el nombre adecuado y agregar el nombre en el a
 ```bash
   php artisan migrate:fresh --seed
 ```
-### Funcionamiento de Backend
+### 🔌 Funcionamiento de Backend
 Usar el comando `php artisan serve` para que el proyecto reciba peticiones HTTP mediante cualquier cliente REST mediante la URL `http://127.0.0.1:8000/api `
 Usar las cabeceras `Content-Type: application/json` y `Accept: application/json` en el cliente rest para hacer peticiones a la URL anterior
 
